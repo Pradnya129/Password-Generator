@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:wght@300;400;500;700&family=Poppins:wght@400;600;700&display=swap');
+body{
+    background-color: rgba(25, 49, 154, 0.938);
+}
+.card{
+    /* height: 00px; */
+    margin:50px auto;
+border-radius: 8px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.form-check-input{
+    border: 1px solid rgb(98, 96, 96);
+}
+input{
+    width: 290px;
+    box-sizing: border-box;
+    outline: none;
+    height: 35px;
+    border: 1px solid grey;
+    border-radius: 6px;
+
+}
+.card-header{
+    height: 60px;
+}
+.btn{
+    width: 100%;
+    color: white;
+    border-color:white ;
+}
+.container{
+    margin-top: 50px;
+}
+.none{
+    display: none;
+}
+.inputLength{
+    width: 38px;
+    height: 33px;
+    
+}
+.length-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card{
+    color: rgb(239, 238, 238);
+    background-color:  rgb(72, 86, 142);;
+}
+.card-title h2{
+    background: linear-gradient(to right,#01244a 20%, #00308F 40%, #06509b 60%, #2381ce 80%);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.form-check-label{
+    font-weight: bold;
+}
